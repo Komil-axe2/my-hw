@@ -1,0 +1,124 @@
+body * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.keyboard-base {
+
+    max-width: 11000px;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(16, 15, 15);
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(30, 30px);
+    grid-template-rows: repeat(5, 65px);
+    grid-gap: 6px;
+
+}
+
+.keyboard-structure {
+    max-width: 500px;
+
+    position: absolute;
+    padding: 15px;
+    top: 24%;
+    right: 3%;
+    border-radius: 10px;
+    background-color: rgb(16, 15, 15);
+    display: grid;
+    transform: translate(-10%);
+    grid-template-columns: repeat(8, 30px);
+    grid-template-rows: repeat(6, 59px);
+    grid-gap: 4px;
+
+}
+
+.key {
+    color: #fff;
+    background-color: rgb(22, 21, 21);
+    border: 1px solid rgb(235, 233, 233);
+    border-radius: 7px;
+    grid-column: span 2;
+    font-size: 21px;
+    text-align: center;
+    padding-top: 14px;
+}
+
+
+
+.delete {
+    grid-column: span 4;
+}
+
+.Enter {
+    grid-column: span 4;
+
+}
+
+.tab {
+    grid-column: span 3;
+}
+
+.backslash {
+    grid-column: span 3;
+}
+
+.capslock {
+    grid-column: span 4;
+}
+
+.ee {
+    grid-column: span 1.5;
+}
+
+.bb {
+    grid-column: span 3;
+}
+
+.cc {
+    grid-column: 0;
+}
+
+.return {
+    grid-column: span 4;
+}
+
+.leftshift {
+    grid-column: span 5;
+}
+
+.rightshift {
+    grid-column: span 5;
+}
+
+
+.leftctrl {
+    grid-column: span 2;
+}
+
+.alt {
+    grid-column: span 2;
+    font-size: 15px;
+}
+
+.space {
+    grid-column: span 15;
+}
+
+.gg {
+    grid-row: span 2;
+}
+
+.enter2 {
+    grid-row: span 2;
+}
+
+.nol {
+    grid-column: span 4;
+}
